@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Visualising fully connected NN data tranformation"
 author: Omar Jamil
 categories: [Neural Network, jupyter]
