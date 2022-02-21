@@ -13,6 +13,9 @@ body {
   margin: 0;
 }
 
+p {
+  font-size: 20px;
+}
 /* Style the header */
 .header {
   background-color: #f1f1f1;
@@ -45,19 +48,26 @@ body {
 /* Create three unequal columns that floats next to each other */
 .column {
   float: left;
-  padding: 10px;
+  padding: 10x;
 }
 
 /* Left and right column */
-.column.side {
-  width: 25%;
+.column.left {
+  width: 10%;
+  text-align: left;
+  /* padding: 10px; */
 }
 
+.column.right {
+  width: 30%;
+  text-align: left;
+  padding: 10px;
+}
 /* Middle column */
 .column.middle {
-  width: 100%;
-  padding: 20px;
-  text-align: center;
+  width: 70%;
+  padding: 10px;
+  /* text-align: center; */
 }
 
 /* Clear floats after the columns */
@@ -79,7 +89,7 @@ body {
 
 <div class="header">
   <h1>Omar Jamil</h1>
-  <p>Code : Science</p>
+  <h3>Science : Code</h3>
 </div>
 
 <!-- <div class="topnav"> -->
@@ -89,20 +99,23 @@ body {
 <!-- </div> -->
 
 <div class="row">
-  <!-- <div class="column side"> -->
-  <!--   <h2>Side</h2> -->
-  <!--   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p> -->
+  <!-- <div class="column left"> -->
+  <!--  <a href="https://github.com/omarjamil" target="_blank"> <h2> Github </h2> </a> -->
+  <!--  <a href="https://www.linkedin.com/in/omar-jamil-81224321/" target="_blank"> <h2> LinkedIn </h2> </a> -->
+  <!--  <a href="mailto:me@omarjamil.com"> <h2> Email </h2> </a> -->
   <!-- </div> -->
   
   <div class="column middle">
-   <a href="https://github.com/omarjamil" target="_blank"> <h2> Github </h2> </a>
-   <a href="mailto:me@omarjamil.com"> <h2> Email </h2> </a>
+    <p> I am a Senior Research Software Engineer at University of Exter's Institute for Data Science and AI. I am interested in solving science (mostly physics) problems using computational techniques. Before joining IDSAI, I worked at the UK Met Office where I worked on a radiative tranfer, remote sensing, and developing machine learning based models for emulating atmospheric physics.
+      <a href="https://github.com/omarjamil" target="_blank"> <h2> Github </h2> </a>
+      <a href="https://www.linkedin.com/in/omar-jamil-81224321/" target="_blank"> <h2> LinkedIn </h2> </a>
+      <a href="mailto:me@omarjamil.com"> <h2> Email </h2> </a>
+    </p>
   </div>
   
-  <!-- <div class="column side"> -->
-  <!--   <h2>Side</h2> -->
-  <!--   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p> -->
-  <!-- </div> -->
+  <div class="column right">
+    <img src="me.jpg" alt="Omar" width="150" height="230">
+  </div>
 </div>
   
 </body>
